@@ -37,277 +37,277 @@ interface CustomerData {
   additionalComments: string
 }
 
-// Sample data for Golf Cart Industry
+// Sample data for UTV Industry
 const sampleCustomerData: CustomerData[] = [
   {
-    customerName: 'Emirates Golf Club',
-    businessOverview: 'Hospitality & Golf Resort',
-    industryVertical: 'Golf & Leisure',
-    assetFootprint: '2 championship golf courses, 1 resort',
-    estimatedFleetSize: '85 units (70 passenger, 15 utility)',
-    ownershipType: 'Private enterprise',
-    keyContactPerson: 'Ahmed Al Maktoum',
-    designation: 'Operations Director',
-    emailAddress: 'a.almaktoum@emiratesgolf.com',
-    phoneNumber: '+971 4 380 1234',
-    linkedInProfile: 'linkedin.com/in/ahmedalmaktoum',
-    websiteUrl: 'www.dubaigolf.com',
-    primaryMotivation: 'Guest experience and comfort, Sustainability goals',
-    keyPainPoints: 'Battery downtime and charging inefficiencies, High maintenance costs',
-    upcomingTriggers: 'Replacement cycle of existing carts, Sustainability mandates',
-    budgetOwnership: 'Central corporate budget',
+    customerName: 'Saudi ARAMCO',
+    businessOverview: 'Oil & Gas Operations',
+    industryVertical: 'Industrial & Logistics',
+    assetFootprint: '8 refineries, 15 oil fields, multiple industrial sites',
+    estimatedFleetSize: '450 units (50 passenger, 400 utility)',
+    ownershipType: 'Government / Semi-government',
+    keyContactPerson: 'Khalid Al-Rashid',
+    designation: 'Fleet Operations Manager',
+    emailAddress: 'k.alrashid@aramco.com.sa',
+    phoneNumber: '+966 13 876 5000',
+    linkedInProfile: 'linkedin.com/in/khalidalrashid',
+    websiteUrl: 'www.aramco.com',
+    primaryMotivation: 'Worker transportation in hazardous areas, Equipment mobility',
+    keyPainPoints: 'Extreme heat durability, Maintenance downtime in remote locations',
+    upcomingTriggers: 'Vision 2030 infrastructure expansion, Safety compliance upgrades',
+    budgetOwnership: 'Central corporate budget, CAPEX',
     procurementModel: 'Direct purchase',
-    buyingFrequency: 'Multi-year replacement cycle (5 years)',
-    decisionDrivers: 'Battery warranty and lifecycle, After-sales support',
-    preferredProductType: 'Electric golf carts, Lithium battery preference',
-    preferredConfiguration: '4-seater, Passenger focus, Custom branding',
-    performanceExpectations: '36-hole battery runtime, Fast charging',
-    technologyAddOns: 'Fleet tracking, GPS navigation',
-    customerBenchmarking: 'High potential - Premium segment',
-    additionalComments: 'Looking to upgrade entire fleet to electric by 2025'
+    buyingFrequency: 'Multi-year replacement cycle (7-10 years)',
+    decisionDrivers: 'Durability and safety features, After-sales support',
+    preferredProductType: 'Diesel UTVs for industrial sites, Some electric for controlled environments',
+    preferredConfiguration: '4-6 seater utility, Heavy-duty cargo bed',
+    performanceExpectations: 'Extreme heat resistance, High payload capacity, 12+ hour runtime',
+    technologyAddOns: 'Fleet tracking, Preventive maintenance alerts, Safety monitoring',
+    customerBenchmarking: 'High potential - Strategic account',
+    additionalComments: 'Stringent safety and quality requirements, long procurement cycles'
   },
   {
-    customerName: 'Atlantis The Palm',
-    businessOverview: 'Luxury Resort & Hotel',
+    customerName: 'Emirates Global Aluminium',
+    businessOverview: 'Mining & Manufacturing',
+    industryVertical: 'Industrial & Logistics',
+    assetFootprint: '2 smelter complexes, 1 bauxite mine',
+    estimatedFleetSize: '280 units (30 passenger, 250 utility)',
+    ownershipType: 'Government / Semi-government',
+    keyContactPerson: 'Ahmed Hassan',
+    designation: 'Head of Operations',
+    emailAddress: 'a.hassan@ega.ae',
+    phoneNumber: '+971 4 315 9999',
+    linkedInProfile: 'linkedin.com/in/ahmedhassan-ega',
+    websiteUrl: 'www.ega.ae',
+    primaryMotivation: 'Heavy material transport, Worker mobility in industrial sites',
+    keyPainPoints: 'Harsh industrial environment, High maintenance costs',
+    upcomingTriggers: 'Plant expansion, Equipment modernization',
+    budgetOwnership: 'Central corporate budget',
+    procurementModel: 'Direct purchase',
+    buyingFrequency: 'Phased rollout across sites',
+    decisionDrivers: 'Total cost of ownership, Ruggedness and durability',
+    preferredProductType: 'Diesel UTVs for heavy-duty applications',
+    preferredConfiguration: 'Heavy-duty utility, High payload (1500+ kg)',
+    performanceExpectations: 'Industrial grade, Extreme durability',
+    technologyAddOns: 'Fleet tracking, Load monitoring',
+    customerBenchmarking: 'High potential - Industrial segment',
+    additionalComments: 'Focus on heavy-duty utility vehicles for mining operations'
+  },
+  {
+    customerName: 'Dubai Parks & Resorts',
+    businessOverview: 'Theme Park & Entertainment',
     industryVertical: 'Hospitality & Tourism',
-    assetFootprint: '1 mega resort, 2 water parks',
-    estimatedFleetSize: '120 units (80 passenger, 40 utility)',
+    assetFootprint: '3 theme parks, 1 water park, resort hotels',
+    estimatedFleetSize: '180 units (120 passenger, 60 utility)',
     ownershipType: 'Private enterprise',
-    keyContactPerson: 'Sarah Johnson',
-    designation: 'VP - Facilities Management',
-    emailAddress: 's.johnson@atlantis.com',
-    phoneNumber: '+971 4 426 5000',
-    linkedInProfile: 'linkedin.com/in/sarahjohnson-atlantis',
-    websiteUrl: 'www.atlantis.com',
-    primaryMotivation: 'Internal mobility efficiency, Guest experience',
-    keyPainPoints: 'Fleet availability during peak seasons, Inconsistent service quality',
-    upcomingTriggers: 'New resort expansion, Increase in tourist volumes',
+    keyContactPerson: 'Sarah Mitchell',
+    designation: 'VP - Operations',
+    emailAddress: 's.mitchell@dubaiparks.com',
+    phoneNumber: '+971 4 820 0000',
+    linkedInProfile: 'linkedin.com/in/sarahmitchell-dp',
+    websiteUrl: 'www.dubaiparks.com',
+    primaryMotivation: 'Guest transportation, Staff mobility, Maintenance operations',
+    keyPainPoints: 'Fleet availability during peak seasons, Heat management',
+    upcomingTriggers: 'New attraction launches, Fleet modernization',
     budgetOwnership: 'Site-level operational budget',
     procurementModel: 'Leasing or rental',
     buyingFrequency: 'Annual contract renewal',
-    decisionDrivers: 'Total cost of ownership, Local service presence',
-    preferredProductType: 'Electric golf carts',
-    preferredConfiguration: '6-seater, Customization (AC, enclosure)',
-    performanceExpectations: 'Durability in heat and humidity',
-    technologyAddOns: 'Fleet tracking, Preventive maintenance alerts',
+    decisionDrivers: 'Guest experience, Total cost of ownership',
+    preferredProductType: 'Electric UTVs for guest areas, Gasoline for utility',
+    preferredConfiguration: '6-seater passenger models, 4-seater utility',
+    performanceExpectations: 'All-day runtime, Comfort features, AC options',
+    technologyAddOns: 'Fleet tracking, GPS navigation',
     customerBenchmarking: 'High potential - Large fleet',
-    additionalComments: 'Interested in managed fleet services'
+    additionalComments: 'Mix of passenger transport and utility applications'
   },
   {
-    customerName: 'Dubai International Airport',
-    businessOverview: 'International Airport Operations',
-    industryVertical: 'Airports & Transportation Hubs',
-    assetFootprint: '3 terminals, 2 concourses',
-    estimatedFleetSize: '250 units (200 passenger, 50 utility)',
+    customerName: 'King Abdullah University',
+    businessOverview: 'Educational Campus',
+    industryVertical: 'Defense & Security',
+    assetFootprint: '1 main campus with research facilities, 12,000 acre site',
+    estimatedFleetSize: '95 units (60 passenger, 35 utility)',
     ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Mohammed Al Rasheed',
-    designation: 'Director - Ground Operations',
-    emailAddress: 'm.alrasheed@dubaiairports.ae',
-    phoneNumber: '+971 4 224 5555',
-    linkedInProfile: 'linkedin.com/in/mohammedalrasheed',
-    websiteUrl: 'www.dubaiairports.ae',
-    primaryMotivation: 'Internal mobility efficiency, Noise reduction indoor',
-    keyPainPoints: 'Limited spare parts availability, Battery downtime',
-    upcomingTriggers: 'Terminal expansion, Green mobility targets',
-    budgetOwnership: 'Central corporate budget, CAPEX',
-    procurementModel: 'Project-based procurement',
-    buyingFrequency: 'Phased rollout across sites',
-    decisionDrivers: 'After-sales support and SLA, Brand reputation',
-    preferredProductType: 'Electric golf carts, Lithium battery',
-    preferredConfiguration: '8+ seater, Passenger focus, Luggage racks',
-    performanceExpectations: 'High payload capacity, 12+ hour runtime',
-    technologyAddOns: 'Fleet tracking, Charging management systems',
-    customerBenchmarking: 'High potential - Strategic account',
-    additionalComments: 'Government tender process, long procurement cycle'
-  },
-  {
-    customerName: 'DAMAC Properties',
-    businessOverview: 'Real Estate Developer',
-    industryVertical: 'Residential Communities',
-    assetFootprint: '5 residential communities, 2 golf courses',
-    estimatedFleetSize: '65 units (40 passenger, 25 utility)',
-    ownershipType: 'Private enterprise',
-    keyContactPerson: 'Fatima Al Hashimi',
-    designation: 'Community Services Manager',
-    emailAddress: 'f.alhashimi@damac.com',
-    phoneNumber: '+971 4 373 1000',
-    linkedInProfile: 'linkedin.com/in/fatimaalhashimi',
-    websiteUrl: 'www.damacproperties.com',
-    primaryMotivation: 'Cost optimization vs manpower, Internal mobility',
-    keyPainPoints: 'High maintenance costs, Inconsistent service quality from dealers',
-    upcomingTriggers: 'New township launch, Replacement cycle',
-    budgetOwnership: 'Site-level operational budget',
-    procurementModel: 'Managed mobility contracts',
-    buyingFrequency: 'One-time bulk purchase',
-    decisionDrivers: 'Total cost of ownership, Local service presence',
-    preferredProductType: 'Electric golf carts',
-    preferredConfiguration: '4-seater, Utility focus',
-    performanceExpectations: 'Durability in heat and sand environments',
-    technologyAddOns: 'Fleet tracking',
-    customerBenchmarking: 'Medium potential - Growing',
-    additionalComments: 'Multiple sites, potential for standardized fleet'
-  },
-  {
-    customerName: 'DP World Logistics',
-    businessOverview: 'Port & Logistics Operations',
-    industryVertical: 'Industrial & Logistics',
-    assetFootprint: '3 port facilities, 5 warehouses',
-    estimatedFleetSize: '180 units (30 passenger, 150 utility)',
-    ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Khalid Rahman',
-    designation: 'Head of Fleet Management',
-    emailAddress: 'k.rahman@dpworld.com',
-    phoneNumber: '+971 4 881 5000',
-    linkedInProfile: 'linkedin.com/in/khalidrahman-dpworld',
-    websiteUrl: 'www.dpworld.com',
-    primaryMotivation: 'Cost optimization, Sustainability goals',
-    keyPainPoints: 'Battery downtime, High maintenance costs of aging fleets',
-    upcomingTriggers: 'Sustainability mandates, Terminal expansion',
-    budgetOwnership: 'Central corporate budget, OPEX for lease',
-    procurementModel: 'Leasing or rental',
+    keyContactPerson: 'Dr. Nasser Al-Mahmoud',
+    designation: 'Director of Campus Services',
+    emailAddress: 'n.almahmoud@kaust.edu.sa',
+    phoneNumber: '+966 12 808 0000',
+    linkedInProfile: 'linkedin.com/in/nasseralmahmoud',
+    websiteUrl: 'www.kaust.edu.sa',
+    primaryMotivation: 'Campus mobility, Sustainability goals',
+    keyPainPoints: 'Large campus distances, Battery range limitations',
+    upcomingTriggers: 'Campus expansion, Green campus initiatives',
+    budgetOwnership: 'Central university budget',
+    procurementModel: 'Direct purchase',
     buyingFrequency: 'Multi-year replacement cycle',
-    decisionDrivers: 'Total cost of ownership, Battery warranty',
-    preferredProductType: 'ICE carts for rugged sites, Electric for indoor',
-    preferredConfiguration: '2-seater utility, High payload',
-    performanceExpectations: 'Heavy duty, 16+ hour runtime',
-    technologyAddOns: 'Fleet tracking, Preventive maintenance alerts',
-    customerBenchmarking: 'High potential - Large fleet',
-    additionalComments: 'Focus on utility carts, industrial grade'
+    decisionDrivers: 'Environmental sustainability, After-sales support',
+    preferredProductType: 'Electric UTVs preferred for zero emissions',
+    preferredConfiguration: '4-6 seater passenger focus',
+    performanceExpectations: 'Long battery range, Fast charging',
+    technologyAddOns: 'Fleet tracking, Charging management systems',
+    customerBenchmarking: 'High potential - Education segment',
+    additionalComments: 'Focus on sustainable transportation solutions'
   },
   {
-    customerName: 'King Fahd International Airport',
-    businessOverview: 'International Airport',
-    industryVertical: 'Airports & Transportation Hubs',
-    assetFootprint: '1 main terminal, VIP terminal',
-    estimatedFleetSize: '95 units (80 passenger, 15 utility)',
-    ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Abdullah Al Saud',
-    designation: 'Operations Manager',
-    emailAddress: 'a.alsaud@kfia.gov.sa',
-    phoneNumber: '+966 13 883 4000',
-    linkedInProfile: 'linkedin.com/in/abdullahalsaud',
-    websiteUrl: 'www.kfia.gov.sa',
-    primaryMotivation: 'Guest experience, Internal mobility efficiency',
-    keyPainPoints: 'Fleet availability during peak seasons, Spare parts',
-    upcomingTriggers: 'Vision 2030 projects, Airport modernization',
-    budgetOwnership: 'Central corporate budget',
-    procurementModel: 'Project-based procurement',
-    buyingFrequency: 'Phased rollout',
-    decisionDrivers: 'Brand reputation, After-sales support',
-    preferredProductType: 'Electric golf carts',
-    preferredConfiguration: '6-seater with AC, Premium finish',
-    performanceExpectations: 'Durability in heat, Fast charging',
-    technologyAddOns: 'GPS navigation, Fleet tracking',
-    customerBenchmarking: 'High potential - Government',
-    additionalComments: 'Part of Saudi Vision 2030 modernization'
-  },
-  {
-    customerName: 'Yas Island Resort',
-    businessOverview: 'Entertainment & Resort Destination',
-    industryVertical: 'Hospitality & Tourism',
-    assetFootprint: '4 theme parks, 2 hotels, F1 circuit',
-    estimatedFleetSize: '200 units (150 passenger, 50 utility)',
-    ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Lina Al Mubarak',
-    designation: 'Director of Operations',
-    emailAddress: 'l.almubarak@yasland.ae',
-    phoneNumber: '+971 2 509 8000',
-    linkedInProfile: 'linkedin.com/in/linaalmubarak',
-    websiteUrl: 'www.yasisland.ae',
-    primaryMotivation: 'Guest experience and comfort, Internal mobility',
-    keyPainPoints: 'Fleet availability during events, Battery downtime',
-    upcomingTriggers: 'New attraction openings, F1 season expansion',
-    budgetOwnership: 'Central corporate budget',
-    procurementModel: 'Direct purchase',
-    buyingFrequency: 'Annual additions, 5-year replacement',
-    decisionDrivers: 'After-sales support, Total cost of ownership',
-    preferredProductType: 'Electric golf carts, Lithium battery',
-    preferredConfiguration: '4-6 seater, Custom theming',
-    performanceExpectations: 'All-day runtime, Quick charge capability',
-    technologyAddOns: 'Fleet tracking, Charging management',
-    customerBenchmarking: 'High potential - Strategic',
-    additionalComments: 'Large diverse fleet across multiple venues'
-  },
-  {
-    customerName: 'Al Mouj Golf',
-    businessOverview: 'Golf Course & Community',
-    industryVertical: 'Golf & Leisure',
-    assetFootprint: '1 championship course, residential community',
-    estimatedFleetSize: '45 units (40 passenger, 5 utility)',
+    customerName: 'Buraimi Farms Group',
+    businessOverview: 'Agricultural Operations',
+    industryVertical: 'Industrial & Logistics',
+    assetFootprint: '25 farms across Oman and UAE, Agricultural processing facilities',
+    estimatedFleetSize: '220 units (20 passenger, 200 utility)',
     ownershipType: 'Private enterprise',
-    keyContactPerson: 'James Mitchell',
-    designation: 'Golf Operations Manager',
-    emailAddress: 'j.mitchell@almoujgolf.com',
-    phoneNumber: '+968 2452 0000',
-    linkedInProfile: 'linkedin.com/in/jamesmitchell-golf',
-    websiteUrl: 'www.almoujgolf.com',
-    primaryMotivation: 'Guest experience, Sustainability goals',
-    keyPainPoints: 'High maintenance costs, Inconsistent dealer service',
-    upcomingTriggers: 'Replacement cycle, Green certification goals',
+    keyContactPerson: 'Mohammed Al Kindi',
+    designation: 'Operations Director',
+    emailAddress: 'm.alkindi@buraimifarms.com',
+    phoneNumber: '+968 2568 7000',
+    linkedInProfile: 'linkedin.com/in/mohammedalkindi',
+    websiteUrl: 'www.buraimifarms.com',
+    primaryMotivation: 'Farm operations, Crop transport, Worker mobility',
+    keyPainPoints: 'Rough terrain handling, Fuel costs',
+    upcomingTriggers: 'Farm expansion, Equipment modernization',
     budgetOwnership: 'Site-level operational budget',
     procurementModel: 'Direct purchase',
-    buyingFrequency: 'One-time bulk purchase',
-    decisionDrivers: 'Battery warranty, Local service presence',
-    preferredProductType: 'Electric golf carts',
-    preferredConfiguration: '2-4 seater, Golf specific features',
-    performanceExpectations: '36-hole runtime, Hill climbing ability',
-    technologyAddOns: 'GPS navigation',
-    customerBenchmarking: 'Medium potential - Niche',
-    additionalComments: 'Premium golf destination in Oman'
+    buyingFrequency: 'Annual additions, phased replacement',
+    decisionDrivers: 'Fuel efficiency, Terrain capability',
+    preferredProductType: 'Diesel UTVs for long-range operations',
+    preferredConfiguration: 'Heavy-duty utility, 4WD capability',
+    performanceExpectations: 'All-terrain capability, High payload',
+    technologyAddOns: 'Basic GPS tracking',
+    customerBenchmarking: 'High potential - Agricultural segment',
+    additionalComments: 'Focus on utility vehicles for agricultural applications'
   },
   {
-    customerName: 'Hamad International Airport',
-    businessOverview: 'International Hub Airport',
-    industryVertical: 'Airports & Transportation Hubs',
-    assetFootprint: '2 terminals, 5 concourses',
-    estimatedFleetSize: '300 units (250 passenger, 50 utility)',
+    customerName: 'Royal Guard Command',
+    businessOverview: 'Military & Security Operations',
+    industryVertical: 'Defense & Security',
+    assetFootprint: 'Multiple military bases and training facilities',
+    estimatedFleetSize: '350 units (150 passenger, 200 utility)',
     ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Nasser Al Thani',
-    designation: 'VP Ground Services',
-    emailAddress: 'n.althani@qatarairways.com.qa',
-    phoneNumber: '+974 4010 6666',
-    linkedInProfile: 'linkedin.com/in/nasseralthani',
-    websiteUrl: 'www.dohahamadairport.com',
-    primaryMotivation: 'Premium passenger experience, Efficiency',
-    keyPainPoints: 'Fleet management complexity, Charging infrastructure',
-    upcomingTriggers: 'World Cup legacy projects, Terminal expansion',
-    budgetOwnership: 'Central corporate budget, CAPEX',
-    procurementModel: 'Framework agreement',
-    buyingFrequency: 'Phased rollout',
-    decisionDrivers: 'Brand reputation, Premium quality',
-    preferredProductType: 'Electric golf carts, Premium models',
-    preferredConfiguration: '8+ seater, Luxury interior, AC',
-    performanceExpectations: 'Premium finish, Quiet operation',
-    technologyAddOns: 'Full telematics, Charging management',
-    customerBenchmarking: 'High potential - Premium segment',
-    additionalComments: 'Focus on luxury and premium passenger experience'
+    keyContactPerson: 'Major General Abdullah Al Saud',
+    designation: 'Procurement Director',
+    emailAddress: 'a.alsaud@rgc.gov.sa',
+    phoneNumber: '+966 11 491 0000',
+    linkedInProfile: 'linkedin.com/in/abdullahalsaud-mil',
+    websiteUrl: 'www.rgc.gov.sa',
+    primaryMotivation: 'Base patrol, Personnel transport, Equipment mobility',
+    keyPainPoints: 'Durability requirements, Spare parts availability',
+    upcomingTriggers: 'Military modernization programs, New base developments',
+    budgetOwnership: 'Central defense budget, CAPEX',
+    procurementModel: 'Government tender',
+    buyingFrequency: 'Project-based procurement',
+    decisionDrivers: 'Reliability and durability, Local service presence',
+    preferredProductType: 'Diesel UTVs for military applications',
+    preferredConfiguration: 'Military-spec utility, Customization for defense needs',
+    performanceExpectations: 'Extreme durability, Desert terrain capability',
+    technologyAddOns: 'Secure fleet tracking, Communications equipment mounting',
+    customerBenchmarking: 'High potential - Government defense',
+    additionalComments: 'Requires compliance with military specifications'
   },
   {
-    customerName: 'Jebel Ali Free Zone',
-    businessOverview: 'Industrial Free Zone',
+    customerName: 'Dubai Municipality',
+    businessOverview: 'Municipal Services',
+    industryVertical: 'Defense & Security',
+    assetFootprint: '50+ parks, public facilities, maintenance yards',
+    estimatedFleetSize: '160 units (40 passenger, 120 utility)',
+    ownershipType: 'Government / Semi-government',
+    keyContactPerson: 'Rashid Al Mansoori',
+    designation: 'Director - Fleet Management',
+    emailAddress: 'r.almansoori@dm.gov.ae',
+    phoneNumber: '+971 4 221 5555',
+    linkedInProfile: 'linkedin.com/in/rashidalmansoori',
+    websiteUrl: 'www.dm.gov.ae',
+    primaryMotivation: 'Park maintenance, Public facility operations',
+    keyPainPoints: 'Operating cost management, Environmental compliance',
+    upcomingTriggers: 'Smart city initiatives, Green fleet mandates',
+    budgetOwnership: 'Municipal operational budget',
+    procurementModel: 'Government tender',
+    buyingFrequency: 'Annual procurement cycles',
+    decisionDrivers: 'Environmental compliance, Total cost of ownership',
+    preferredProductType: 'Electric UTVs for urban areas, Diesel for heavy-duty',
+    preferredConfiguration: 'Utility focus with cargo beds',
+    performanceExpectations: 'Low emissions, Daily operational reliability',
+    technologyAddOns: 'Fleet tracking, Maintenance scheduling',
+    customerBenchmarking: 'High potential - Municipal segment',
+    additionalComments: 'Preference for environmentally friendly options'
+  },
+  {
+    customerName: 'NEOM Project Development',
+    businessOverview: 'Smart City Construction',
     industryVertical: 'Industrial & Logistics',
-    assetFootprint: '15 industrial zones, logistics parks',
-    estimatedFleetSize: '120 units (20 passenger, 100 utility)',
+    assetFootprint: 'Mega construction site, 26,500 km² development area',
+    estimatedFleetSize: '500 units (100 passenger, 400 utility)',
     ownershipType: 'Government / Semi-government',
-    keyContactPerson: 'Rashid Al Mahmoud',
-    designation: 'Facilities Director',
-    emailAddress: 'r.almahmoud@jafza.ae',
-    phoneNumber: '+971 4 881 1111',
-    linkedInProfile: 'linkedin.com/in/rashidalmahmoud',
-    websiteUrl: 'www.jafza.ae',
-    primaryMotivation: 'Cost optimization, Sustainability mandates',
-    keyPainPoints: 'Aging fleet maintenance, Spare parts availability',
-    upcomingTriggers: 'Green zone certification, Fleet modernization',
-    budgetOwnership: 'OPEX for lease',
-    procurementModel: 'Managed mobility contracts',
-    buyingFrequency: 'Multi-year contract',
-    decisionDrivers: 'Total cost of ownership, Service SLA',
-    preferredProductType: 'Mix of Electric and ICE for heavy duty',
-    preferredConfiguration: 'Utility focus, High payload',
-    performanceExpectations: 'Industrial grade durability',
-    technologyAddOns: 'Fleet tracking, Maintenance alerts',
-    customerBenchmarking: 'High potential - Large fleet',
-    additionalComments: 'Industrial utility carts primary focus'
+    keyContactPerson: 'Eng. Fahad Al Qahtani',
+    designation: 'Head of Site Operations',
+    emailAddress: 'f.alqahtani@neom.com',
+    phoneNumber: '+966 12 345 6789',
+    linkedInProfile: 'linkedin.com/in/fahadAlqahtani',
+    websiteUrl: 'www.neom.com',
+    primaryMotivation: 'Construction site mobility, Material transport',
+    keyPainPoints: 'Scale of operations, Terrain challenges',
+    upcomingTriggers: 'Vision 2030 megaproject, Continuous expansion',
+    budgetOwnership: 'Project CAPEX budget',
+    procurementModel: 'Framework agreements',
+    buyingFrequency: 'Ongoing procurement as project expands',
+    decisionDrivers: 'Scalability, Reliability, After-sales support',
+    preferredProductType: 'Mix of Diesel and Electric UTVs',
+    preferredConfiguration: 'Heavy-duty utility, Various configurations',
+    performanceExpectations: 'All-terrain, High durability, Long operational hours',
+    technologyAddOns: 'Advanced fleet management, Telematics',
+    customerBenchmarking: 'Very high potential - Megaproject',
+    additionalComments: 'Massive scale opportunity, long-term partnership potential'
+  },
+  {
+    customerName: 'Pulau Pinang National Park',
+    businessOverview: 'National Park & Conservation',
+    industryVertical: 'Defense & Security',
+    assetFootprint: '1 national park, multiple conservation sites',
+    estimatedFleetSize: '45 units (25 passenger, 20 utility)',
+    ownershipType: 'Government / Semi-government',
+    keyContactPerson: 'Dr. Lim Wei Chen',
+    designation: 'Park Director',
+    emailAddress: 'w.lim@ppnp.gov.my',
+    phoneNumber: '+60 4 881 3500',
+    linkedInProfile: 'linkedin.com/in/limweichen',
+    websiteUrl: 'www.ppnp.gov.my',
+    primaryMotivation: 'Eco-tourism transport, Park maintenance',
+    keyPainPoints: 'Environmental impact concerns, Terrain accessibility',
+    upcomingTriggers: 'Tourism expansion, Conservation initiatives',
+    budgetOwnership: 'Government operational budget',
+    procurementModel: 'Government procurement',
+    buyingFrequency: 'One-time bulk purchase',
+    decisionDrivers: 'Environmental sustainability, Low noise',
+    preferredProductType: 'Electric UTVs for zero emissions in protected areas',
+    preferredConfiguration: 'Passenger focus, All-terrain capability',
+    performanceExpectations: 'Minimal environmental impact, Trail capability',
+    technologyAddOns: 'GPS tracking',
+    customerBenchmarking: 'Medium potential - Conservation segment',
+    additionalComments: 'Strong preference for environmentally friendly solutions'
+  },
+  {
+    customerName: 'Al Ain Farms & Zoo',
+    businessOverview: 'Zoo & Agricultural Facility',
+    industryVertical: 'Hospitality & Tourism',
+    assetFootprint: '1 zoo facility, agricultural research areas',
+    estimatedFleetSize: '70 units (40 passenger, 30 utility)',
+    ownershipType: 'Government / Semi-government',
+    keyContactPerson: 'Fatima Al Kaabi',
+    designation: 'Operations Manager',
+    emailAddress: 'f.alkaabi@alainzoo.ae',
+    phoneNumber: '+971 3 799 2000',
+    linkedInProfile: 'linkedin.com/in/fatimakaabi',
+    websiteUrl: 'www.alainzoo.ae',
+    primaryMotivation: 'Visitor transport, Animal care operations',
+    keyPainPoints: 'Noise disturbance to animals, Reliability during peak seasons',
+    upcomingTriggers: 'Facility expansion, Visitor experience upgrades',
+    budgetOwnership: 'Facility operational budget',
+    procurementModel: 'Direct purchase',
+    buyingFrequency: 'Multi-year replacement cycle',
+    decisionDrivers: 'Low noise operation, Visitor comfort',
+    preferredProductType: 'Electric UTVs for quiet operation',
+    preferredConfiguration: 'Passenger models with weather protection',
+    performanceExpectations: 'Quiet operation, Reliability, All-day runtime',
+    technologyAddOns: 'Route planning, Fleet tracking',
+    customerBenchmarking: 'Medium potential - Tourism segment',
+    additionalComments: 'Emphasis on visitor experience and animal welfare'
   }
 ]
 
@@ -373,23 +373,23 @@ export default function CustomerIntelligenceDatabase({ title }: CustomerIntellig
             </th>
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[150px]">
               <div>Business Overview</div>
-              <div className="font-normal text-[10px] text-gray-600">(hospitality, transportation, real estate)</div>
+              <div className="font-normal text-[10px] text-gray-600">(industrial, agriculture, defense, tourism, construction)</div>
             </th>
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[180px]">
               <div>Industry Vertical</div>
-              <div className="font-normal text-[10px] text-gray-600">(Golf & Leisure, Hospitality & Tourism, Airports & Transportation Hubs, Industrial & Logistics, Residential Communities)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Industrial & Logistics, Defense & Security, Hospitality & Tourism, Agriculture, Mining & Construction)</div>
             </th>
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[180px]">
               <div>Asset Footprint / Mobility Environment</div>
-              <div className="font-normal text-[10px] text-gray-600">(Number of golf courses, resorts, terminals, campuses, or industrial sites)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Number of facilities, sites, campuses, parks, farms, or operational areas)</div>
             </th>
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[150px]">
               <div>Estimated Fleet Size (Units)</div>
-              <div className="font-normal text-[10px] text-gray-600">(Current golf cart fleet size, Passenger vs utility split)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Current UTV fleet size, Passenger vs utility split)</div>
             </th>
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[200px]">
               <div>Ownership Type</div>
-              <div className="font-normal text-[10px] text-gray-600">(Government / Semi-government, Private enterprise, Public private partnership, Family owned resort or developer)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Government / Semi-government, Private enterprise, Public private partnership, Family owned)</div>
             </th>
             {/* Contact Details */}
             <th className="bg-[#B0E0E6] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black whitespace-nowrap">Key Contact Person</th>
@@ -478,16 +478,16 @@ export default function CustomerIntelligenceDatabase({ title }: CustomerIntellig
             <th className="bg-[#B0E0E6] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black whitespace-nowrap">Website URL</th>
             {/* Professional Drivers */}
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
-              <div>Primary Motivation for Golf Cart Adoption</div>
-              <div className="font-normal text-[10px] text-gray-600">(Guest experience and comfort, Internal mobility efficiency, Cost optimization vs manpower, Sustainability and low-emission goals, Noise reduction and indoor usability)</div>
+              <div>Primary Motivation for UTV Adoption</div>
+              <div className="font-normal text-[10px] text-gray-600">(Operational efficiency, Worker/material transport, Cost optimization, Terrain accessibility, Safety and durability, Environmental compliance)</div>
             </th>
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
               <div>Key Pain Points</div>
-              <div className="font-normal text-[10px] text-gray-600">(High maintenance costs of aging fleets, Battery downtime and charging inefficiencies, Limited spare parts availability, Inconsistent service quality from dealers, Fleet availability during peak seasons)</div>
+              <div className="font-normal text-[10px] text-gray-600">(High maintenance costs, Durability in harsh environments, Spare parts availability, Fuel/energy efficiency, Terrain capability limitations, Downtime issues)</div>
             </th>
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
               <div>Upcoming Triggers and Initiatives</div>
-              <div className="font-normal text-[10px] text-gray-600">(New resort or township launch, Airport or terminal expansion, Replacement cycle of existing carts, Sustainability mandates or green mobility targets, Increase in tourist or footfall volumes)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Facility expansion, Equipment modernization, Fleet replacement cycle, Safety compliance upgrades, Environmental mandates, New project developments)</div>
             </th>
           </tr>
         </thead>
@@ -581,16 +581,16 @@ export default function CustomerIntelligenceDatabase({ title }: CustomerIntellig
             <th className="bg-[#B0E0E6] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black whitespace-nowrap">Website URL</th>
             {/* Professional Drivers */}
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
-              <div>Primary Motivation for Golf Cart Adoption</div>
-              <div className="font-normal text-[10px] text-gray-600">(Guest experience and comfort, Internal mobility efficiency, Cost optimization vs manpower, Sustainability and low-emission goals, Noise reduction and indoor usability)</div>
+              <div>Primary Motivation for UTV Adoption</div>
+              <div className="font-normal text-[10px] text-gray-600">(Operational efficiency, Worker/material transport, Cost optimization, Terrain accessibility, Safety and durability, Environmental compliance)</div>
             </th>
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
               <div>Key Pain Points</div>
-              <div className="font-normal text-[10px] text-gray-600">(High maintenance costs of aging fleets, Battery downtime and charging inefficiencies, Limited spare parts availability, Inconsistent service quality from dealers, Fleet availability during peak seasons)</div>
+              <div className="font-normal text-[10px] text-gray-600">(High maintenance costs, Durability in harsh environments, Spare parts availability, Fuel/energy efficiency, Terrain capability limitations, Downtime issues)</div>
             </th>
             <th className="bg-[#98FB98] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
               <div>Upcoming Triggers and Initiatives</div>
-              <div className="font-normal text-[10px] text-gray-600">(New resort or township launch, Airport or terminal expansion, Replacement cycle of existing carts, Sustainability mandates or green mobility targets, Increase in tourist or footfall volumes)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Facility expansion, Equipment modernization, Fleet replacement cycle, Safety compliance upgrades, Environmental mandates, New project developments)</div>
             </th>
             {/* Purchasing Behaviour Metrics */}
             <th className="bg-[#CCE5FF] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[200px]">
@@ -612,7 +612,7 @@ export default function CustomerIntelligenceDatabase({ title }: CustomerIntellig
             {/* Solution Requirements */}
             <th className="bg-[#FFE4B5] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[200px]">
               <div>Preferred Product Type</div>
-              <div className="font-normal text-[10px] text-gray-600">(Electric golf carts/ICE carts for rugged or remote sites/Lithium battery preference vs lead-acid)</div>
+              <div className="font-normal text-[10px] text-gray-600">(Electric UTVs/Gasoline UTVs/Diesel UTVs for heavy-duty/Hybrid options/Battery type preference)</div>
             </th>
             <th className="bg-[#FFE4B5] border border-gray-300 px-3 py-2 text-left text-xs font-semibold text-black min-w-[220px]">
               <div>Preferred Configuration</div>
