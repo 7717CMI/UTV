@@ -1611,7 +1611,7 @@ export async function processJsonDataAsync(
     
     // Build metadata
     const metadata: Metadata = {
-      market_name: ' and MEA Golf Cart Market',
+      market_name: ' and MEA Utility Terrain Vehicles (UTVs) Market',
       market_type: 'Market Analysis',
       industry: 'Chemicals & Materials',
       years: allYears,
