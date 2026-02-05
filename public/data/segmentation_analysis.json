@@ -1,0 +1,64 @@
+{
+  "ASEAN and MEA": {
+    "By Product Type": {
+      "ICE UTVs - Gasoline": {
+        "Gasoline": {}
+      },
+      "ICE UTVs - Diesel": {
+        "Diesel": {}
+      },
+      "Electric UTVs - Lead-Acid Battery": {
+        "Lead-Acid Battery": {}
+      },
+      "Electric UTVs - Lithium-ion Battery": {
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {},
+    "By Load Capacity": {},
+    "By Seating Capacity": {},
+    "By End Use Sector": {
+      "Defense & Security - Military/Government & Defense Forces": {
+        "Military/Government & Defense Forces": {}
+      },
+      "Defense & Security - Police & Law Enforcement": {
+        "Police & Law Enforcement": {}
+      },
+      "Defense & Security - Emergency Response (Fire Disaster and Medical)": {
+        "Emergency Response (Fire Disaster and Medical)": {}
+      },
+      "Defense & Security - Border Security & Patrol": {
+        "Border Security & Patrol": {}
+      }
+    },
+    "By Seller Type": {},
+    "By Sales Channel": {},
+    "By Country": {
+      "ASEAN": {
+        "Thailand": {},
+        "Vietnam": {},
+        "Cambodia": {},
+        "Laos": {},
+        "Myanmar": {},
+        "Indonesia": {},
+        "Malaysia": {},
+        "Philippines": {},
+        "Singapore": {},
+        "Brunei": {}
+      },
+      "MEA": {
+        "GCC": {
+          "Saudi Arabia": {},
+          "United Arab Emirates (UAE)": {},
+          "Qatar": {},
+          "Kuwait": {},
+          "Oman": {},
+          "Bahrain": {}
+        },
+        "Turkey": {},
+        "South Africa": {},
+        "Rest of MEA": {}
+      }
+    }
+  }
+}
