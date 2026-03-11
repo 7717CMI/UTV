@@ -23,14 +23,15 @@ export function generateInsights(
   records: DataRecord[],
   filters: FilterState,
   currency: 'USD' | 'INR' = 'USD',
-  volumeUnit: string = 'Million Units'
+  volumeUnit: string = 'Million Units',
+  valueUnit: string = 'Million'
 ): Insight[] {
   const insights: Insight[] = []
-  
+
   if (records.length === 0) return insights
 
   // 1. Top Performer Analysis
-  const topPerformer = findTopPerformer(records, filters, currency, volumeUnit)
+  const topPerformer = findTopPerformer(records, filters, currency, volumeUnit, valueUnit)
   if (topPerformer) insights.push(topPerformer)
 
   // 2. Growth Leader
@@ -59,7 +60,7 @@ export function generateInsights(
 /**
  * Find the top performing geography or segment
  */
-function findTopPerformer(records: DataRecord[], filters: FilterState, currency: 'USD' | 'INR' = 'USD', volumeUnit: string = 'Million Units'): Insight | null {
+function findTopPerformer(records: DataRecord[], filters: FilterState, currency: 'USD' | 'INR' = 'USD', volumeUnit: string = 'Million Units', valueUnit: string = 'Million'): Insight | null {
   const [startYear, endYear] = filters.yearRange
   const currentYear = endYear
   
@@ -89,16 +90,9 @@ function findTopPerformer(records: DataRecord[], filters: FilterState, currency:
   let valueDisplay = ''
   if (filters.dataType === 'value') {
     if (currency === 'INR') {
-      // For INR, use Indian number system
-      if (topValue >= 10000000) {
-        valueDisplay = `₹${(topValue / 10000000).toFixed(2)} Cr`
-      } else if (topValue >= 100000) {
-        valueDisplay = `₹${(topValue / 100000).toFixed(2)} L`
-      } else {
-        valueDisplay = `₹${topValue.toFixed(2)}`
-      }
+      valueDisplay = `₹${topValue.toFixed(2)} ${valueUnit}`
     } else {
-      valueDisplay = `${(topValue / 1000000).toFixed(2)} USD Mn`
+      valueDisplay = `${topValue.toFixed(2)} USD ${valueUnit}`
     }
   } else {
     valueDisplay = `${topValue.toFixed(1)} ${volumeUnit}`

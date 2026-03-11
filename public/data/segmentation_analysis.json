@@ -1,64 +1,1205 @@
 {
   "ASEAN and MEA": {
     "By Product Type": {
-      "ICE UTVs - Gasoline": {
-        "Gasoline": {}
-      },
-      "ICE UTVs - Diesel": {
+      "ICE UTVs": {
+        "Gasoline": {},
         "Diesel": {}
       },
-      "Electric UTVs - Lead-Acid Battery": {
-        "Lead-Acid Battery": {}
-      },
-      "Electric UTVs - Lithium-ion Battery": {
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
         "Lithium-ion Battery": {}
       }
     },
-    "By Drive Type": {},
-    "By Load Capacity": {},
-    "By Seating Capacity": {},
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
     "By End Use Sector": {
-      "Defense & Security - Military/Government & Defense Forces": {
-        "Military/Government & Defense Forces": {}
-      },
-      "Defense & Security - Police & Law Enforcement": {
-        "Police & Law Enforcement": {}
-      },
-      "Defense & Security - Emergency Response (Fire Disaster and Medical)": {
-        "Emergency Response (Fire Disaster and Medical)": {}
-      },
-      "Defense & Security - Border Security & Patrol": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
         "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    },
+    "By Region": {
+      "ASEAN": {},
+      "MEA": {}
+    }
+  },
+  "ASEAN": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
       }
     },
-    "By Seller Type": {},
-    "By Sales Channel": {},
-    "By Country": {
-      "ASEAN": {
-        "Thailand": {},
-        "Vietnam": {},
-        "Cambodia": {},
-        "Laos": {},
-        "Myanmar": {},
-        "Indonesia": {},
-        "Malaysia": {},
-        "Philippines": {},
-        "Singapore": {},
-        "Brunei": {}
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
       },
-      "MEA": {
-        "GCC": {
-          "Saudi Arabia": {},
-          "United Arab Emirates (UAE)": {},
-          "Qatar": {},
-          "Kuwait": {},
-          "Oman": {},
-          "Bahrain": {}
-        },
-        "Turkey": {},
-        "South Africa": {},
-        "Rest of MEA": {}
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    },
+    "By Region": {
+      "Thailand": {},
+      "Vietnam": {},
+      "Cambodia": {},
+      "Laos": {},
+      "Myanmar": {},
+      "Indonesia": {},
+      "Malaysia": {},
+      "Philippines": {},
+      "Singapore": {},
+      "Brunei": {}
+    }
+  },
+  "MEA": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
       }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    },
+    "By Region": {
+      "GCC": {},
+      "Turkey": {},
+      "South Africa": {},
+      "Rest of MEA": {}
+    }
+  },
+  "GCC": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    },
+    "By Region": {
+      "Saudi Arabia": {},
+      "United Arab Emirates (UAE)": {},
+      "Qatar": {},
+      "Kuwait": {},
+      "Oman": {},
+      "Bahrain": {}
+    }
+  },
+  "Saudi Arabia": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "United Arab Emirates (UAE)": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Qatar": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Kuwait": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Oman": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Bahrain": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Turkey": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "South Africa": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Rest of MEA": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Thailand": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Vietnam": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Cambodia": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Laos": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Myanmar": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Indonesia": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Malaysia": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Philippines": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Singapore": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
+    }
+  },
+  "Brunei": {
+    "By Product Type": {
+      "ICE UTVs": {
+        "Gasoline": {},
+        "Diesel": {}
+      },
+      "Electric UTVs": {
+        "Lead-Acid Battery": {},
+        "Lithium-ion Battery": {}
+      }
+    },
+    "By Drive Type": {
+      "2WD": {},
+      "4WD": {}
+    },
+    "By Load Capacity": {
+      "Light-duty (\u2264 450 Kg)": {},
+      "Medium-duty (451 \u2013 750)": {},
+      "Heavy-duty (>750 Kg)": {}
+    },
+    "By Seating Capacity": {
+      "2-Seater": {},
+      "4-Seater": {},
+      "6-Seater": {}
+    },
+    "By End Use Sector": {
+      "Agriculture & Farming": {},
+      "Construction": {},
+      "Mining": {},
+      "Forestry": {},
+      "Industrial & Warehouse Operations": {},
+      "Defense & Security": {
+        "Military/Government & Defense Forces": {},
+        "Police & Law Enforcement": {},
+        "Emergency Response (Fire, Disaster, and Medical)": {},
+        "Border Security & Patrol": {}
+      },
+      "Utilities & Municipal Services": {},
+      "Recreation, Tourism & Resorts": {},
+      "Commercial Facilities & Large Campuses (Airports, and Large Institutions)": {}
+    },
+    "By Seller Type": {
+      "Direct Sales (OEM to Customer)": {},
+      "Dealer/Distributor Sales": {},
+      "Retailer": {}
+    },
+    "By Sales Channel": {
+      "Online": {},
+      "Offline": {}
     }
   }
 }

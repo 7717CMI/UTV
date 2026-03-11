@@ -1458,7 +1458,7 @@ export async function processJsonDataAsync(
     }
     const startYear = Math.min(...allYears)
     const forecastYear = Math.max(...allYears)
-    const baseYear = 2025 // Fixed base year for UTV market analysis
+    const baseYear = 2026 // Fixed base year for UTV market analysis
     console.log(`Years: ${startYear} to ${forecastYear}, base: ${baseYear}`)
     
     // Extract geographies from segmentation data (first level keys)
@@ -1536,16 +1536,45 @@ export async function processJsonDataAsync(
     }
     console.log(`Found ${segmentTypes.size} segment types:`, Array.from(segmentTypes))
     
-    // Build geography dimension - truly dynamic, no assumptions about structure
-    // All geographies go into all_geographies, regardless of whether they're global, regions, or countries
-    const geographyDimension: GeographyDimension = {
-      global: geographies.length === 1 ? geographies : [], // If only one geography, treat as global
-      regions: [], // Will be populated dynamically if needed
-      countries: {}, // Will be populated dynamically if needed
-      all_geographies: geographies // All geographies from the data
+    // Build geography hierarchy from "By Region" data
+    // countriesMap: parent geo → array of child geos
+    const countriesMap: Record<string, string[]> = {}
+    const allGeoSet = new Set(geographies)
+
+    for (const geo of geographies) {
+      // Check both structureData and valueData for "By Region"
+      const sources = [structureData, valueData].filter(Boolean)
+      for (const source of sources) {
+        const geoData = source[geo]
+        if (geoData && typeof geoData === 'object') {
+          const byRegionData = geoData['By Region']
+          if (byRegionData && typeof byRegionData === 'object') {
+            const children = Object.keys(byRegionData).filter(key => {
+              return !/^\d{4}$/.test(key) && key !== 'CAGR' && key !== '_aggregated' && key !== '_level'
+            })
+            if (children.length > 0 && !countriesMap[geo]) {
+              countriesMap[geo] = children.filter(c => allGeoSet.has(c))
+              console.log(`Geography hierarchy: ${geo} → [${countriesMap[geo].join(', ')}]`)
+            }
+          }
+        }
+      }
     }
-    
-    console.log(`Geography dimension built with ${geographies.length} geographies:`, geographies)
+
+    // Determine root geographies (those not appearing as children of any other geo)
+    const childGeos = new Set<string>()
+    Object.values(countriesMap).forEach(children => children.forEach(c => childGeos.add(c)))
+    const rootGeos = geographies.filter(g => !childGeos.has(g))
+
+    // Build geography dimension with hierarchy info
+    const geographyDimension: GeographyDimension = {
+      global: rootGeos,
+      regions: Object.keys(countriesMap).filter(g => !rootGeos.includes(g)),
+      countries: countriesMap,
+      all_geographies: geographies
+    }
+
+    console.log(`Geography dimension built with ${geographies.length} geographies, ${Object.keys(countriesMap).length} parent geos, ${rootGeos.length} roots:`, rootGeos)
     
     // Process each segment type asynchronously
     const segments: Record<string, SegmentDimension> = {}
@@ -1611,7 +1640,7 @@ export async function processJsonDataAsync(
     
     // Build metadata
     const metadata: Metadata = {
-      market_name: ' and MEA Utility Terrain Vehicles (UTVs) Market',
+      market_name: 'ASEAN and MEA Utility Terrain Vehicles (UTVs) Market',
       market_type: 'Market Analysis',
       industry: 'Chemicals & Materials',
       years: allYears,
